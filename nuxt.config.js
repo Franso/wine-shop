@@ -65,4 +65,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  env:{
+    googleTagManagerId: process.env.GOOGLE_TAGMANAGER_ID
+  }
 }
